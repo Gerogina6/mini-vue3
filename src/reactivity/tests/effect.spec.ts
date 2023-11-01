@@ -1,4 +1,5 @@
-import { reactive } from "vue"
+import { reactive } from "../reactive"
+import { effect } from "../effect"
 
 describe('effect', () => {
     it.skip('core path', () => {
